@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "cfddeploy/1.0.0.1": {
+        "dependencies": {
+          "3cxpscomcpp2": "2.0.0.0"
+        },
+        "runtime": {
+          "cfddeploy.dll": {}
+        }
+      },
+      "3cxpscomcpp2/2.0.0.0": {
+        "runtime": {
+          "3cxpscomcpp2.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "cfddeploy/1.0.0.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "3cxpscomcpp2/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
